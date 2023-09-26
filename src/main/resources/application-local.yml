@@ -1,0 +1,14 @@
+
+
+DEFAULT_READ_TIMEOUT: "5000"
+DEFAULT_CONNECT_TIMEOUT: "5000"
+
+TEMPLATE_BASEURL: "http://localhost:8099"
+
+app.config.message.queue.topics.passbook: https://sqs.ap-southeast-1.amazonaws.com/083888084688/new-passbook-txn.fifo
+
+
+
+
+
+

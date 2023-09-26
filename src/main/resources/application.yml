@@ -1,0 +1,23 @@
+spring:
+  profiles:
+    active:
+      - local
+  mvc.throw-exception-if-no-handler-found: true
+  application:
+    name: passbook-txn-consumer
+  main:
+    allow-circular-references: true
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+integration:
+  template:
+    service-name: template
+    base-url: ${TEMPLATE_BASEURL}
+    default-read-timeout: ${DEFAULT_READ_TIMEOUT}
+    default-connect-timeout: ${DEFAULT_CONNECT_TIMEOUT}
+    outbound:
+      create-txn: ${integration.passbook.base-url}/api/bond-passprint/v1/create-txn
+
