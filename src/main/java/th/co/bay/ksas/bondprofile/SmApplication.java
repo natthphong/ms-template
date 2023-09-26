@@ -10,7 +10,6 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @EnableCaching
 @EnableScheduling
 @SpringBootApplication
-@ComponentScan(basePackages = "th.co.bay.ksas")
 public class SmApplication {
 
 
