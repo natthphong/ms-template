@@ -1,4 +1,4 @@
-package th.co.bay.ksas.bondprofile.util;
+package th.co.my.sm.template.util;
 
 
 public class Constant {

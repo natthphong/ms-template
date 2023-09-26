@@ -1,4 +1,4 @@
-package th.co.bay.ksas.bondprofile.exception.handler;
+package th.co.my.sm.template.exception.handler;
 
 import org.springframework.http.client.ClientHttpResponse;
 import org.springframework.stereotype.Component;

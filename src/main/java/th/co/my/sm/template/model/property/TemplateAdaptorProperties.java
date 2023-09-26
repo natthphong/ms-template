@@ -1,4 +1,4 @@
-package th.co.bay.ksas.bondprofile.model.property;
+package th.co.my.sm.template.model.property;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

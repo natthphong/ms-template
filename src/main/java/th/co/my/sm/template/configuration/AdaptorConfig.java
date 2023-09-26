@@ -1,4 +1,4 @@
-package th.co.bay.ksas.bondprofile.configuration;
+package th.co.my.sm.template.configuration;
 
 import okhttp3.OkHttpClient;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -7,8 +7,8 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.client.OkHttp3ClientHttpRequestFactory;
 import org.springframework.web.client.RestTemplate;
-import th.co.bay.ksas.bondprofile.exception.handler.RestTemplateResponseErrorHandler;
-import th.co.bay.ksas.bondprofile.model.property.TemplateAdaptorProperties;
+import th.co.my.sm.template.exception.handler.RestTemplateResponseErrorHandler;
+import th.co.my.sm.template.model.property.TemplateAdaptorProperties;
 
 import java.time.Duration;
 

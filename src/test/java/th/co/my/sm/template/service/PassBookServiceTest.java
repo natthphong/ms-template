@@ -1,4 +1,4 @@
-package th.co.bay.ksas.bondprofile.service;
+package th.co.my.sm.template.service;
 
 
 import com.amazonaws.services.sqs.AmazonSQSClient;
@@ -13,7 +13,7 @@ import org.mockito.Mock;
 import org.mockito.junit.MockitoJUnitRunner;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import th.co.bay.ksas.bondprofile.adaptor.PassBookAdaptor;
+import th.co.my.sm.template.adaptor.PassBookAdaptor;
 
 import th.co.bay.ksas.helper.util.JsonHelper;
 

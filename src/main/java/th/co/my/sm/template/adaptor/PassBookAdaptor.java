@@ -1,4 +1,4 @@
-package th.co.bay.ksas.bondprofile.adaptor;
+package th.co.my.sm.template.adaptor;
 
 import org.springframework.http.ResponseEntity;
 
